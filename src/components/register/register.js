@@ -12,4 +12,4 @@ class register extends React.Component {
   }
 }
 
-export default withAsyncAction("register", "all")({ register });
+export default withAsyncAction("register","all")( register );
