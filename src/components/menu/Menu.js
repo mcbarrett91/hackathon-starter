@@ -4,7 +4,7 @@ import "./Menu.css";
 import { withAsyncAction } from "../../redux/HOCs";
 
 class Menu extends React.Component {
-  handleLogout = event => {
+  handleLogout = (event) => {
     event.preventDefault();
     this.props.logout();
   };
@@ -18,6 +18,8 @@ class Menu extends React.Component {
             <Link to="/" onClick={this.handleLogout}>
               Logout
             </Link>
+
+            <Link to="/register">Sign up</Link>
           </div>
         )}
       </div>
