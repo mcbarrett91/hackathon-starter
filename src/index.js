@@ -6,11 +6,14 @@ import { Provider } from "react-redux";
 import { ConnectedRouter } from "connected-react-router";
 import App from "./App";
 import { store, history } from "./redux";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
   <Provider store={store}>
     <ConnectedRouter history={history}>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </ConnectedRouter>
   </Provider>,
   document.getElementById("root")
