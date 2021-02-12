@@ -7,6 +7,8 @@ import NotFound from "./pages/NotFound";
 import register from "./pages/register/register";
 import forgotpassword from "./components/forgotpassword/forgotpassword";
 
+
+//qa comment
 class App extends React.Component {
   render() {
     return (

@@ -9,4 +9,6 @@
 }
 form {
   display: inline-block;
+  background-color:beige;
+  text-align: center; margin-right: auto;
 }
