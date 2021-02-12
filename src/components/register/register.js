@@ -7,7 +7,7 @@ class register extends React.Component {
 
     this.state = {};
   }
-  rendor() {
+  render() {
     return <div></div>;
   }
 }
