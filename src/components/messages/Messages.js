@@ -52,12 +52,20 @@ class Messages extends React.Component {
 }
 
 
+   handleLikes = (event) =>{let data = {...this.state};
+   
+   data[event.target.name] = event.target.value;   
+
+   this.setState(data);
+ }
+
+
   render() {
     let display = (<div>No Messages Found</div>)
     if (this.state.messages) {
       display = this.state.messages.map((value) => {
         return (
-          <li key={value.id}>{value.text}</li>
+          <li key={value.id}><button onClick={this.handleLikes}>👍Like</button>{value.text}</li>
         )
       })
     }
