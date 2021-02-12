@@ -36,7 +36,7 @@ class LoginForm extends React.Component {
 
   render() {
     if (this.reg) {
-      <div>{register}</div>;
+      // <div>{register}</div>;
     }
     const { loading, error } = this.props;
     return (
