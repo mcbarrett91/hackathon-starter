@@ -11,6 +11,7 @@
 }
 form {
   display: inline-block;
+<<<<<<< HEAD
 } 
 
 .flex-container {
@@ -19,4 +20,8 @@ form {
   flex-wrap: nowrap;
   height: 200px;
   align-items: center;
+=======
+  background-color:beige;
+  text-align: center; margin-right: auto;
+>>>>>>> 6467b14e20ce8470902132c170ef2b97ca61a9db
 }

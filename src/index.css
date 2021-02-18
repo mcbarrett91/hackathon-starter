@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 body {
   
   text-align: center;
   background-color: yellowgreen;
+=======
+body { 
+  background-color: white; 
+  background-image: url(./image.jpg);
+>>>>>>> 6467b14e20ce8470902132c170ef2b97ca61a9db
   margin: 0.5em;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -9,12 +15,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+    
 }
+<<<<<<< HEAD
 header { text-align: center;
 
 } 
@@ -25,3 +34,9 @@ header { text-align: center;
   align-items: center;
 }
 
+=======
+header {
+  text-align: center;
+  text-decoration-color: transparent;
+}
+>>>>>>> 6467b14e20ce8470902132c170ef2b97ca61a9db
